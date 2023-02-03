@@ -1,6 +1,6 @@
 import Cors from 'micro-cors'
 import { gql, ApolloServer } from 'apollo-server-micro'
-import { Client, Collection, Documents, Lambda, Paginate, Map, Get, Collections } from 'faunadb'
+import { Client, Collection, Documents, Lambda, Paginate, Map, Get } from 'faunadb'
 
 const client = new Client({
     secret: process.env.FAUNA_SECRET,
